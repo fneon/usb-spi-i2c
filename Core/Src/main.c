@@ -106,7 +106,7 @@ int main(void)
   MX_I2C1_Init();
   MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
-
+  main2(); /* USB-to-SPI/I2C/GPIO bridge super-loop; never returns */
   /* USER CODE END 2 */
 
   /* Infinite loop */
