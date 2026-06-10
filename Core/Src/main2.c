@@ -154,7 +154,7 @@ void pw_get_line_coding(uint8_t *buf)
         4           data (if sending)
 
         GPIO:
-        1           bit values (A0-A7)
+        1           bit values (A0-A3, A4 to be used as SPI CSN)
 
     device to host:
         offset
