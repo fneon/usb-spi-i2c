@@ -71,7 +71,7 @@ Core/Src/syscalls.c
 
 # ASM sources
 ASM_SOURCES =  \
-startup_stm32f103xb.s
+startup_stm32f103x6.s
 
 # ASMM sources
 ASMM_SOURCES = 
@@ -120,7 +120,7 @@ AS_DEFS =
 # C defines
 C_DEFS =  \
 -DUSE_HAL_DRIVER \
--DSTM32F103xB
+-DSTM32F103x6
 
 
 # AS includes
